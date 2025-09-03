@@ -14,10 +14,9 @@ set_target_properties(Coral.Native PROPERTIES
 )
 
 target_include_directories(Coral.Native
-    INTERFACE
+    PUBLIC
     "${CMAKE_CURRENT_SOURCE_DIR}/Include"
     PRIVATE
-    "${CMAKE_CURRENT_SOURCE_DIR}/Include/Coral"
     "${CMAKE_CURRENT_SOURCE_DIR}/Source"
     "${CORAL_ROOT}/NetCore"
 )

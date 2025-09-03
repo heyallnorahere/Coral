@@ -1,6 +1,6 @@
 # Folders
 .vs/
-**/Build/
+**/[Bb]uild/
 **/Intermediates/
 **/bin/
 **/obj/
